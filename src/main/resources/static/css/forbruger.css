@@ -37,7 +37,7 @@ header {
     list-style-type: none;
     margin-left: 10px;
     padding-top: 20px;
-    width: 10%;
+    width: 180px;
     background-color: #ffffff;
     position: fixed;
     height: 100%;
@@ -52,14 +52,14 @@ header li a {
 }
 
 header li a.active {
-    background-color: #f1f1f1;
-    color: black;
+    background-color: #083A59;
+    color: #000000;
 }
 
 header li a:hover:not(.active) {
-    /*background-color: lightgreen;*/
-    color: black;
-    font-size: 18px;
+    background-color: #083A59;
+    color: #ffffff;
+    /*font-size: 18px;*/
 }
 
 .text {
