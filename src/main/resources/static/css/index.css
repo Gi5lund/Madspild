@@ -14,7 +14,7 @@ li a {
     display: block;
 
     text-align: center;
-    padding: 16px;
+    padding: 10px;
 
 }
 li a:link{
@@ -53,4 +53,61 @@ li a:hover{
     color:#593C19;
 
     background-color: #556B2F;
+}
+ body{
+     background-color: olivedrab;
+ }
+.nav {
+    height: 40px;
+    list-style-type: none;
+    margin: 0;
+    padding-bottom: 20px;
+    overflow: hidden;
+    background-color: #374017;
+    font-size: large;
+    font-weight: bold;
+
+}
+.nav p{
+
+    margin: 15px;
+
+}
+
+.nav li {
+    float: left;
+
+    border: 1px solid olivedrab;
+
+
+}
+
+.nav li a {
+    display: block;
+    color: forestgreen;
+    text-align: center;
+    padding-left: 2px;
+
+
+}
+#forbruger{
+    margin-left: 100px;
+}
+#forbruger a:hover{
+    color: whitesmoke;
+    background-color: #083A59;
+    text-decoration: underline;
+
+}
+#virksomhed a:hover{
+    color: whitesmoke;
+    background-color: olive;
+    text-decoration: underline;
+
+}
+#organisationer a:hover{
+    color: whitesmoke;
+    background-color: #B5BFA4;
+    text-decoration: underline;
+
 }
