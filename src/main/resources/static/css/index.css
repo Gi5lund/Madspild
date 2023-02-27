@@ -116,3 +116,18 @@ li a:hover{
     text-decoration: underline;
 
 }
+.sidebar {
+    margin-top: 42px;
+    padding: 0;
+    width: 200px;
+    background-color: transparent;
+
+    border: solid 2px black;
+    position: fixed;
+    top:140px;
+    height: 50%;
+    overflow: hidden;
+}
+.sidebar ul{
+    background-color: olivedrab;
+}
