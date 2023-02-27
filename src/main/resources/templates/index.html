@@ -15,17 +15,17 @@
 <ul>
 
 
-    <li><a href="index.html"><img id="Logo" th:src="@{/pictures/Logo.png}" alt="FoodMind" src="../static/pictures/Logo.png" width="100" height="100"> </a> </li>
-    <li><a href="index.html"><h1 id="header">
+    <li><a th:href="@{index.html}" href="src/main/resources/templates/index.html"><img id="Logo" th:src="@{/pictures/Logo.png}" alt="FoodMind" src="../static/pictures/Logo.png" width="100" height="100"> </a> </li>
+    <li><a th:href="@{index.html}" href="src/main/resources/templates/index.html"><h1 id="header">
         <i> FoodMind</i>
     </h1></a>
 
 
 </ul>
     <ul class="nav">
-        <li id="forbruger"><a th:href="@{/forbruger.html}" href="forbruger.html"><p> Forbruger</p> </a></li>
-        <li id="virksomhed"><a th:href="@{/virksomhed.html}" href="virksomhed.html"><p> Virksomheder </p></a></li>
-        <li id="organisationer"><a th:href="@{/organisationer.html}" href="organisation.html"><p> Organisationer</p> </a></li>
+        <li id="forbruger"><a th:href="@{/forbruger.html}" href="src/main/resources/templates/forbruger.html"><p> Forbruger</p> </a></li>
+        <li id="virksomhed"><a th:href="@{/virksomhed.html}" href="src/main/resources/templates/virksomhed.html"><p> Virksomheder </p></a></li>
+        <li id="organisationer"><a th:href="@{/organisationer.html}" href="src/main/resources/templates/organisation.html"><p> Organisationer</p> </a></li>
     </ul>
 </div>
 <div class="front">
