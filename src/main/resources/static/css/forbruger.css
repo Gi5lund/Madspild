@@ -1,9 +1,10 @@
 .topnav {
     list-style-type: none;
+    height: 60px;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #083A59;
     box-shadow: 0 0 25px 0 black;
 
 }
@@ -14,9 +15,10 @@
 
 .topnav li a {
     display: block;
+    height: 60px;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 20px 16px;
     text-decoration: none;
 }
 
