@@ -10,4 +10,13 @@ public class Home {
     public String home(){
         return "index";
     }
+    @GetMapping("organisation")
+    public  String organisation(){
+        return "organisation";
+    }
+    @GetMapping("virksomhed")
+    public String virksomhed(){
+        return "virksomhed";
+    }
+    @GetMapping("forbruger")
 }
