@@ -1,4 +1,4 @@
-ul {
+.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -7,6 +7,7 @@ ul {
     position: -webkit-sticky; /* Safari */
     position: sticky;
     top: 0;
+    box-shadow: 0px 0px 25px 0px black;
 }
 
 li {
@@ -38,5 +39,36 @@ li a:hover {
     font-size: xx-large;
     color:#593C19;
 
-    background-color: #556B2F;
+    background-color: greenyellow;
+}
+header {
+    list-style-type: none;
+    margin-left: 10px;
+    padding-top: 20px;
+    width: 180px;
+    background-color: #ffffff;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+header li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+header li a.active {
+    background-color: #083A59;
+    color: #000000;
+}
+
+header li a:hover:not(.active) {
+    background-color: #083A59;
+    color: #ffffff;
+    /*font-size: 18px;*/
+}
+.brødtekst{
+    margin-left: 250px;
 }
