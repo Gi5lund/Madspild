@@ -82,7 +82,7 @@ li a:hover{
 .nav li {
     float: left;
 
-    border: 1px solid olivedrab;
+    border-right: 1px solid olivedrab;
 
 
 }
@@ -96,7 +96,7 @@ li a:hover{
 
 }
 #forbruger{
-    margin-left: 100px;
+    margin-left: 140px;
 }
 #forbruger a:hover{
     color: whitesmoke;
@@ -117,9 +117,11 @@ li a:hover{
 
 }
 .sidebar {
+   /* display: flow;*/
+   /* flex-direction: column;*/
     margin-top: 42px;
     padding: 0;
-    width: 200px;
+    width: 100px;
     background-color: transparent;
 
     border: solid 2px black;
@@ -129,5 +131,11 @@ li a:hover{
     overflow: hidden;
 }
 .sidebar ul{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
     background-color: olivedrab;
+}
+.front{
+    margin-left: 155px;
 }
