@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:font-weight="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Forbruger</title>
+    <link rel="stylesheet" href="../static/css/forbruger.css" th:href="@{/forbruger.css}">
+    <link rel="icon" type="image/x-icon" href="../static/pictures/Logo_black.png">
+</head>
+<body>
+
+<div>
+    <div class="topdeco">
+        <div class="header">
+
+            <a href="https://erdetfredag.dk"><img id="Logo" th:src="@{/pictures/Logo.png}" alt="FoodMind" src="../static/pictures/Logo.png"> </a>
+        </div>
+        <div class="topnav">
+            <ul>
+                <li><a th:href="@{index.html}" href="index.html">Home</a> </li>
+                <li><a class="active" th:href="@{forbruger.html}" href="forbruger.html">Forbruger</a></li>
+                <li><a th:href="@{virksomhed.html}" href="virksomhed.html">Virksomhed</a></li>
+                <li><a th:href="@{organisation.html}" href="organisation.html">Organisation</a></li>
+                <li id="contact"><a th:href="@{contact_us}"class="#contact us" href="contact us">Contact Us </a></li>
+            </ul>
+        </div>
+    </div>
+    <div>
+        <header>
+            <li><a th:href="@{for_opbevaring.html}" href="for_opbevaring.html">Opbevaringsvejledning</a></li>
+            <li><a th:href="@{for_opskrifter.html}" href="for_opskrifter.html">Opskrifter</a></li>
+            <li><a th:href="@{for_madplan.html}" href="for_madplan.html">Madplanlægning</a></li>
+            <li><a th:href="@{for_tips.html}" href="for_tips.html">Tips og tricks</a></li>
+            <li><a th:href="@{for_fallesskab.html}" href="for_fallesskab.html">Fællesskaber</a></li>
+        </header>
+    </div>
+</div>
+
+<div class="brødtekst">
+    <h1>Madplanlægning</h1>
+
+
+</div>
+
+</body>
+
+</html>
