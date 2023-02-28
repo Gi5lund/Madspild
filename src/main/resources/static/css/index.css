@@ -84,6 +84,9 @@ header {
     z-index: -1;
     height: 100%;
     overflow: auto;
+    font-family: Candara;
+    font-weight: bold;
+    font-size: 14px;
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.57);
 }
 
@@ -92,6 +95,9 @@ header li a {
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+    font-family: Candara;
+    font-weight: bold;
+    font-size: 14px;
     overflow-wrap: normal;
 }
 
@@ -100,12 +106,13 @@ header li a.active {
     color: #000000;
 }
 
-header li a:hover:not(.active) {
+header li a:hover{
     background-color: #083A59;
     color: #ffffff;
     /*font-size: 18px;*/
 }
 .brødtekst{
+    display: flex;
     margin-top: 180px;
     margin-left: 250px;
 }
@@ -114,4 +121,21 @@ header li a:hover:not(.active) {
     display: inline-block;
 
     height: 90px;
+}
+.column img{
+    padding: 10px;
+}
+/* Create three equal columns that floats next to each other */
+.column {
+    justify-content: space-around;
+
+    padding: 10px;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }

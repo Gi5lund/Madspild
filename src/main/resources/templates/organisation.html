@@ -17,10 +17,10 @@
     <div class="topnav">
         <ul>
 <!--    <li><a><img src="../static/pictures/Logo.png"  height="30px" width="30px" ></a></li>-->
-            <li><a href="#home">Home</a> </li>
-            <li><a href="#forbruger">Forbruger</a></li>
-            <li><a href="#virksomhed">Virksomhed</a></li>
-            <li><a class="active" href="#organisation">Organisation</a></li>
+            <li><a class="active" th:href="@{/index}" href="index.html">Home</a> </li>
+            <li><a th:href="@{/forbruger}" href="forbruger.html">Forbruger</a></li>
+            <li><a th:href="@{/virksomhed}"href="virksomhed.html" > Virksomhed</a></li>
+            <li><a  th:href="@{organisation}" href="organisation.html">Organisation</a></li>
             <li id="contact"><a class="#contact us" href="contact us">Contact Us </a></li>
         </ul>
     </div>
