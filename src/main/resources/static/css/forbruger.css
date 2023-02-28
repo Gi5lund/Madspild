@@ -108,12 +108,12 @@ header li a {
 }
 
 header li a.active {
-    background-color: #083A59;
+    background-color: #dddddd;
     color: #000000;
 }
 
 header li a:hover:not(.active) {
-    background-color: #083A59;
+    background-color: #dddddd;
     color: #ffffff;
     /*font-size: 18px;*/
 }

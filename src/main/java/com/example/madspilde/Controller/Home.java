@@ -22,4 +22,25 @@ public class Home {
     public String forbruger(){
         return "forbruger";
     }
+    @GetMapping("/for_fallesskab")
+    public String fallesskab(){
+        return "for_fallesskab";
+    }
+    @GetMapping("/for_madplan")
+    public String madplan(){
+        return "for_madplan";
+    }
+    @GetMapping("/for_opbevaring")
+    public String opbevaring(){
+        return "for_opbevaring";
+    }
+
+    @GetMapping("/for_opskrifter")
+    public String opskrifter(){
+        return "for_opskrifter";
+    }
+    @GetMapping("/for_tips")
+    public String tips(){
+        return "for_tips";
+    }
 }
