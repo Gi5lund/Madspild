@@ -61,6 +61,7 @@ li a:hover {
 }
 
 .header{
+    display: flex;
     text-align: center;
     /* display: inline-list-item;*/
     /*justify-self: center;*/
@@ -75,7 +76,7 @@ li a:hover {
 header {
     list-style-type: none;
     margin-left: 10px;
-    margin-top: 140px;
+    margin-top: -40px;
     padding-top: 20px;
     width: 180px;
     background-color: #ffffff;
@@ -91,6 +92,7 @@ header li a {
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+    overflow-wrap: normal;
 }
 
 header li a.active {
@@ -104,5 +106,12 @@ header li a:hover:not(.active) {
     /*font-size: 18px;*/
 }
 .brødtekst{
+    margin-top: 180px;
     margin-left: 250px;
+}
+#Logo{
+    justify-self: left;
+    display: inline-block;
+
+    height: 90px;
 }
