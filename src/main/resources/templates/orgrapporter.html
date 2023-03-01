@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Organisation</title>
-    <link rel="stylesheet" href="../static/css/organisation.css" th:href="@{/organisation.css}">
+    <link rel="stylesheet" href="../static/css/organisation.css" th:href="@{css/organisation.css}">
     <link rel="icon" type="image/x-icon" href="../static/pictures/Logo_black.png">
 </head>
 <body>
@@ -21,7 +21,7 @@
                 <li><a th:href="@{/forbruger}" href="forbruger.html">Forbruger</a></li>
                 <li><a th:href="@{/virksomhed}"href="virksomhed.html" > Virksomhed</a></li>
                 <li><a class="active" th:href="@{organisation}" href="organisation.html">Organisation</a></li>
-                <li id="contact"><a class="#contactus" href="contact.html">Contact Us </a></li>
+                <li id="contact"><a th:href="@{/contact}" href="contact.html">Kontakt os </a></li>
             </ul>
         </div>
     </div>
@@ -37,15 +37,9 @@
 </div>
 
 <div class="brødtekst">
-    <h3>Dataindsamling: </h3>
-    <p>Et værktøj, der kan hjælpe organisationer med at indsamle data om deres madspild
-        og identificere områder, hvor der kan gøres forbedringer. </p>
-    <h3>Ressourcestyring:  </h3>
-    <p>En software, der kan hjælpe organisationer med at optimere deres ressourceforbrug og reducere deres madspild. </p>
+     </p>
     <h3>Rapporter og analyser: : </h3>
     <p>En rapportgenerator, der kan generere rapporter og analyser af organisationens madspild.  </p>
-    <h3>Registrer dig som samarbejdspartner: </h3>
-    <a href="https://wintrymichi.ch">Klik her.</a>
     <b><p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
         <p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
         <p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>

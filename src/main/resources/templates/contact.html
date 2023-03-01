@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Organisation</title>
-  <link rel="stylesheet" href="../static/css/organisation.css" th:href="@{/organisation.css}">
+  <link rel="stylesheet" href="../static/css/organisation.css" th:href="@{css/organisation.css}">
   <link rel="icon" type="image/x-icon" href="../static/pictures/Logo_black.png">
 </head>
 <body>
@@ -21,7 +21,7 @@
         <li><a th:href="@{/forbruger}" href="forbruger.html">Forbruger</a></li>
         <li><a th:href="@{/virksomhed}"href="virksomhed.html" > Virksomhed</a></li>
         <li><a  th:href="@{organisation}" href="organisation.html">Organisation</a></li>
-        <li id="contact"><a class="#contact us" href="contact us">Contact Us </a></li>
+        <li id="contact"><a th:href="@{/contact}" href="contact.html">Kontakt os </a></li>
       </ul>
     </div>
   </div>
