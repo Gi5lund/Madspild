@@ -55,8 +55,8 @@ public class Home {
     public String resource(){
         return "orgresourcestyring";
     }
-    @GetMapping("/orgrapport")
+    @GetMapping("/orgrapporter")
     public String rapport(){
-        return "orgrapport";
+        return "orgrapporter";
     }
 }
