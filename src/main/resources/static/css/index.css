@@ -4,7 +4,12 @@
     top: 0px;
     left: 0px;
 }
-
+#Logo {
+    justify-content: space-around;
+    margin-left: 40px;
+    height: 80px;
+    padding-top: 10px;
+}
 
 .topnav {
     list-style-type: none;
@@ -55,12 +60,11 @@ li a:hover {
     background-color: #d81b60;
 }
 
-.header img {
+/*.header img {
     justify-content: space-around;
     margin-left: 40px;
     height: 80px;
-    padding-top: 10px;
-}
+    padding-top: 10px;*/
 
 .header{
     height: 100px;
@@ -88,22 +92,6 @@ li a:hover {
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.57);
 }
 
-/*header {
-    list-style-type: none;
-    margin-left: 10px;
-    margin-top: -40px;
-    padding-top: 20px;
-    width: 180px;
-    background-color: #ffffff;
-    position: fixed;
-    z-index: -1;
-    height: 100%;
-    overflow: auto;
-    font-family: Candara;
-    font-weight: bold;
-    font-size: 14px;
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.57);
-}*/
 .navside li a {
     display: block;
     color: #000;
@@ -123,7 +111,7 @@ li a:hover {
 .navside li a:hover:not(.active) {
     background-color: #dddddd;
     color: #ffffff;
-    /*font-size: 18px;*/
+
 }
 .navside ul {
     list-style-type: none;
@@ -133,38 +121,14 @@ li a:hover {
     margin-top: 0px;
 }
 
-/*header li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 14px;
-    overflow-wrap: normal;
-}
 
-header li a.active {
-    background-color: #083A59;
-    color: #000000;
-}
-
-header li a:hover{
-    background-color: #083A59;
-    color: #ffffff;
-    !*font-size: 18px;*!
-}*/
 .brødtekst{
     display: flex;
     margin-top: 180px;
     margin-left: 250px;
     ;
 }
-#Logo{
-    justify-self: left;
-    display: inline-block;
 
-    height: 90px;
-}
 .column img{
     padding: 10px;
 }
