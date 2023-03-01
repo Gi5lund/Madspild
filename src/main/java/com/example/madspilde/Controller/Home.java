@@ -43,4 +43,20 @@ public class Home {
     public String tips(){
         return "fortips";
     }
+    @GetMapping("/orgpartner")
+    public String partner(){
+        return "orgpartner";
+    }
+    @GetMapping("/orgdataindsamling")
+    public String data(){
+        return "orgdataindsamling";
+    }
+    @GetMapping("/orgresourcestyring")
+    public String resource(){
+        return "orgresourcestyring";
+    }
+    @GetMapping("/orgrapport")
+    public String rapport(){
+        return "orgrapport";
+    }
 }
