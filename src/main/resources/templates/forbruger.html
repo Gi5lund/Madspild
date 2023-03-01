@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Forbruger</title>
-    <link rel="stylesheet" href="../static/css/forbruger.css" th:href="@{/forbruger.css}">
+    <link rel="stylesheet" href="../static/css/forbruger.css" th:href="@{css/forbruger.css}">
     <link rel="icon" type="image/x-icon" href="../static/pictures/Logo_black.png">
 </head>
 <body>
@@ -24,28 +24,27 @@
             </ul>
         </div>
     </div>
-    <div>
-        <header>
-            <li><a th:href="@{for_opbevaring.html}" href="for_opbevaring.html">Opbevaringsvejledning</a></li>
-            <li><a th:href="@{for_opskrifter.html}" href="for_opskrifter.html">Opskrifter</a></li>
-            <li><a th:href="@{for_madplan.html}" href="for_madplan.html">Madplanlægning</a></li>
-            <li><a th:href="@{for_tips.html}" href="for_tips.html">Tips og tricks</a></li>
-            <li><a th:href="@{for_fallesskab.html}" href="for_fallesskab.html">Fællesskaber</a></li>
-        </header>
+    <div class="navside">
+        <ul>
+            <li><a th:href="@{foropbevaring.html}" href="foropbevaring.html">Opbevaringsvejledning</a></li>
+            <li><a th:href="@{foropskrifter.html}" href="foropskrifter.html">Opskrifter</a></li>
+            <li><a th:href="@{formadplan.html}" href="formadplan.html">Madplanlægning</a></li>
+            <li><a th:href="@{fortips.html}" href="fortips.html">Tips og tricks</a></li>
+            <li><a th:href="@{forfallesskab.html}" href="forfallesskab.html">Fællesskaber</a></li>
+        </ul>
     </div>
 </div>
 
 <div class="brødtekst">
-    
-    <div><img src="../static/pictures/forbruger/apple.jpg" width="1000" height="100"></div>
+    <h1>Forbruger</h1>
+    <div><img th:src="@{/pictures/forbruger/apple.jpg}" alt="Picture off food here" src="../static/pictures/forbruger/apple.jpg" width="1000" height="100"></div>
     <div>
-        <h2>Forbruger</h2>
         <p>I Danmark udgør forbrugernes andel af madspild omkring 36% af det samlede madspild, svarende til ca 260.000 ton mad.</p>
 
         <p>Madspild koster danske husholdninger 13,5 milliarder kroner om året inkl. moms og afgifter.<br>
             kilde: Landbrug & Fødevarer - tal fra 2016</p>
 
-        <h2>Ønsker du at bidrage til at mindste madspild?</h2>
+        <h2>Ønsker du at bidrage til at mindske madspild?</h2>
         <p>Bidrag til mere omtanke<br>
             Lad os begynde med at tage fat i dét, der berører os alle. I noget vi har tæt på livet tre gange dagligt. Nemlig mad.<br>
             Et liv med omtanke på hverdagens forbrug er også et liv med omtanke for miljøet. At komme madspild til livs resulterer i mindsket CO2-udslip og derved i mindre drivhuseffekt og dermed i en opbremsning af den globale opvarmning.
@@ -70,7 +69,7 @@
             kilder: Aarhus Universitet, CONCITO - fra Fødevareministeriets konference 'Det skjulte madspild' i 2011</p>
     </div>
     <br><br>
-    <div><img src="../static/pictures/forbruger/for_frugtsmal.jpg" width="1000"></div>
+    <div><img th:src="@{/pictures/forbruger/for_frugtsmal.jpg}" alt="Picture off food here" src="../static/pictures/forbruger/for_frugtsmal.jpg" width="1000"></div>
 </div>
 
 </body>

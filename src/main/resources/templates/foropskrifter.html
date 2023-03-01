@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:font-weight="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Forbruger</title>
+    <link rel="stylesheet" href="../static/css/forbruger.css" th:href="@{/forbruger.css}">
+    <link rel="icon" type="image/x-icon" href="../static/pictures/Logo_black.png">
+</head>
+<body>
+
+<div>
+    <div class="topdeco">
+        <div class="header">
+
+            <a href="https://erdetfredag.dk"><img id="Logo" th:src="@{/pictures/Logo.png}" alt="FoodMind" src="../static/pictures/Logo.png"> </a>
+        </div>
+        <div class="topnav">
+            <ul>
+                <li><a th:href="@{index.html}" href="index.html">Home</a> </li>
+                <li><a class="active" th:href="@{forbruger.html}" href="forbruger.html">Forbruger</a></li>
+                <li><a th:href="@{virksomhed.html}" href="virksomhed.html">Virksomhed</a></li>
+                <li><a th:href="@{organisation.html}" href="organisation.html">Organisation</a></li>
+                <li id="contact"><a th:href="@{contact_us}"class="#contact us" href="contact us">Contact Us </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="navside">
+        <ul>
+            <li><a th:href="@{foropbevaring.html}" href="foropbevaring.html">Opbevaringsvejledning</a></li>
+            <li><a th:href="@{foropskrifter.html}" href="foropskrifter.html">Opskrifter</a></li>
+            <li><a th:href="@{formadplan.html}" href="formadplan.html">Madplanlægning</a></li>
+            <li><a th:href="@{fortips.html}" href="fortips.html">Tips og tricks</a></li>
+            <li><a th:href="@{forfallesskab.html}" href="forfallesskab.html">Fællesskaber</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="brødtekst">
+    <h1>Opskrifter</h1>
+    <div><img src="../static/pictures/forbruger/opskrift.jpg" width="1000"></div>
+    <div>
+        <p>
+            Marinerede svampe og kikærter med ris og frisk grønt<br>
+            Print<br>
+            Samlet tid: 40 min.<br>
+            Arbejdstid: 15-30 min.<br>
+            Opskrift af: nemlig.com<br>
+            Ingredienser (4 personer)<br>
+            <br>
+            320 g	Ris<br>
+            1 tsk.	Salt<br>
+            Marinade<br>
+            2 spsk.	Revet ingefær<br>
+            2 fed	Hvidløg<br>
+            2 spsk.	Tamari<br>
+            1 stk.	Lime, saften heraf<br>
+            3 spsk.	Sukker<br>
+            Marinerede svampe og kikærter<br>
+            150 g	Østershatte el. lign.<br>
+            300 g	Champignon<br>
+            2 ds.	Kikærter<br>
+            2 spsk. (ca.)	Olie<br>
+            1 nip	Peber og evt. salt<br><br>
+            Grønt<br>
+            1 bdt.	Forårsløg<br>
+            200 g	Gulerødder<br>
+            Serveringsforslag<br>
+            0.5 bdt.	Koriander eller basilikum<br>
+            1 smule	Peanuts<br>
+            1 behov	Kokosflager og/eller cashewnødder<br><br>
+            Fremgangsmåde<br>
+            Lav lækker vegetarisk aftensmad med denne nemme opskrift på marinerede svampe og kikærter med ris og frisk grønt.<br>
+            retten er inspireret af det asiatiske køkken med smage af frisk ingefær, hvidløg og tamari.<br><br>
+            Ris<br>
+            •	Vej risene af og skyl risene grundigt under koldt vand, i en si eller sigte<br>
+            •	Kom dem i en gryde med salt og passende mængde vand som angivet på posen<br><br>
+            •	Kog efter anvisning på posen<br>
+            Marinerede svampe og kikærter<br>
+            •	Skræl ingefær og riv den fint. Pil hvidløg og pres det. Skær limen i både<br>
+            •	Bland limesaften samt alle ingredienserne til marinaden sammen<br>
+            •	Rens svampene efter behov. Skær champignon i skiver eller kvarte. Dræn kikærterne for væske<br>
+            •	Varm en pande med en god sjat olie og steg svampene til de smider væske<br>
+            •	Tilsæt herefter kikærterne og steg videre et minuts tid<br>
+            •	Hæld marinaden over svampe og kikærter og lade den blive tyk<br>
+            •	Vend marinaden godt sammen med svampe og kikærter<br>
+            •	Smag til med peber og evt. salt<br><br>
+            Grønt<br>
+            •	Skyl forårsløg og skær dem i skiver på skrå<br>
+            •	Skræl gulerødderne og kassér det yderste lag. Fortsæt med at skrælle tynde bånd<br>
+            •	Servér risene toppet med glaserede svampe og kikærter. Top med de friske grøntsager<br>
+        </p>
+    </div>
+</div>
+
+</body>
+
+</html>
