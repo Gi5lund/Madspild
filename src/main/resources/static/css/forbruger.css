@@ -78,7 +78,7 @@ li a:hover {
     object-position: left;
     font-size: xx-large;
     color:#593C19;
-    background-color: greenyellow;
+    background-color: #556B2F;
 }
 
 .navside {
@@ -88,7 +88,7 @@ li a:hover {
     padding-top: 20px;
     width: 180px;
     background-color: transparent;
-    border-right: dotted 1px #B5BFA4;
+    border-right: dotted 1px #bfa4a4;
     position: fixed;
     z-index: 0;
     height: 100%;
