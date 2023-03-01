@@ -39,10 +39,7 @@ public class Home {
     public String opskrifter(){
         return "foropskrifter";
     }
-    @GetMapping("/fortips")
-    public String tips(){
-        return "fortips";
-    }
+
     @GetMapping("/orgpartner")
     public String partner(){
         return "orgpartner";

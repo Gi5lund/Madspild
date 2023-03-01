@@ -78,7 +78,8 @@ li a:hover {
     object-position: left;
     font-size: xx-large;
     color:#593C19;
-    background-color: #556B2F;
+    background-color: #b42637;
+    /* #0a736b turkisgrøn*/
 }
 
 .navside {
@@ -132,10 +133,18 @@ li a:hover {
     font-family: Candara;
 }
 
-h1 {
-    font-family: "Corbel";
+.linkopskrift li a{
+    display: block;
+    margin-left: 830px;
+    text-decoration: none;
+    color: #000000;
+    font-family: Candara;
+    font-weight: bold;
+    font-size: 18px;'
 }
-
-h2 {
-
+.linkopskrift li a hover{
+    color: #ff0000;
+}
+.linkopskrift ul {
+    list-style-type: none;
 }
