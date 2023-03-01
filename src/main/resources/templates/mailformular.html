@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <head>
+    <meta charset="UTF-8">
+    <title>rickroll</title>
+    <style>
+      body {
+        background-color: black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        cursor: pointer;
+      }
+      a {
+        color: white;
+        text-decoration: none;
+      }
+      video {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      #link {
+        font-size:300%;
+        font-family:verdana;
+      }
+    </style>
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9TX18W9YN3"></script><script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-9TX18W9YN3');
+  </script></head>
+</head>
+<body>
+<body id="body">
+<a href="#" id="link">😍😍CLICK HERE😘😘</a>
+<video id="video" src="https://shattereddisk.github.io/rickroll/rickroll.mp4" style="display: block;"></video>
+<script>
+  const link = document.getElementById("body");
+  const video = document.getElementById("video");
+  link.addEventListener("click", function(event) {
+    event.preventDefault();
+    video.style.display = "block";
+    video.muted = false;
+    video.play();
+    video.requestFullscreen();
+  });
+</script>
+
+
+</body>
+</body>
+</html>

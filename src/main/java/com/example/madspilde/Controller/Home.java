@@ -59,4 +59,13 @@ public class Home {
     public String rapport(){
         return "orgrapporter";
     }
+    @GetMapping("/contact")
+        public String kontakt() {
+        return "contact";
+    }
+    @GetMapping("/mailformular")
+    public String mail() {
+        return "mailformular";
+    }
+
 }
