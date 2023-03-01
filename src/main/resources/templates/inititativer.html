@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodMind</title>
+    <link rel="stylesheet" th:href="@{css/organisation.css}" href="../static/css/index.css">
+
+    <link rel="icon" type="image/x-icon" href="../static/pictures/Logo_black.png">
+</head>
+<body>
+
+<div>
+    <div class="topdeco">
+        <div class="header">
+            <a href="https://erdetfredag.dk"><img id="Logo" th:src="@{/pictures/Logo.png}" alt="FoodMind" src="../static/pictures/Logo.png">
+                                                   </a>
+        </div>
+
+        <div class="topnav">
+            <ul>
+                <li><a th:href="@{/index}" href="index.html">Home</a> </li>
+                <li><a th:href="@{/forbruger}" href="forbruger.html">Forbruger</a></li>
+                <li><a th:href="@{/virksomhed}" href="virksomhed.html" > Virksomhed</a></li>
+                <li><a th:href="@{/organisation}" href="organisation.html">Organisation</a></li>
+                <li id="contact"><a class="#contact us" th:href="@{/contact.html}" href="contact.html">Kontakt os </a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div>
+    <div class="navside">
+        <ul>
+
+            <!--<li><a th:href="@{/https://www.dst.dk/da/Statistik/nyheder-analyser-publ/nyt/NytHtml?cid=39625}" href="https://www.dst.dk/da/Statistik/nyheder-analyser-publ/nyt/NytHtml?cid=39625">Statistik om madspild</a></li>-->
+            <!-- <li><a href="#news">initiativer bekæmpelse af madspild og andre fantastiske ting</a></li>-->
+            <!--<li><a href="#contact"></a></li>
+            <li><a href="#about">Bliv partner</a></li>
+            <li><a href="#about">Fællesskaber</a></li>-->
+        </ul>
+    </div>
+</div>
+<div class="brødtekst">
+    <div>
+    <img th:src="@{/pictures/madspild2.jpg}" alt="madspild" src="../static/pictures/madspild2.jpg">
+    </div>
+</div>
+
+
+</body>
+</html>
