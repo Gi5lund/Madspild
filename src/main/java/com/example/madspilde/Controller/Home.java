@@ -24,23 +24,39 @@ public class Home {
     }
     @GetMapping("/for_fallesskab")
     public String fallesskab(){
-        return "for_fallesskab";
+        return "forfallesskab";
     }
     @GetMapping("/for_madplan")
     public String madplan(){
-        return "for_madplan";
+        return "formadplan";
     }
     @GetMapping("/for_opbevaring")
     public String opbevaring(){
-        return "for_opbevaring";
+        return "foropbevaring";
     }
 
     @GetMapping("/for_opskrifter")
     public String opskrifter(){
-        return "for_opskrifter";
+        return "foropskrifter";
     }
     @GetMapping("/for_tips")
     public String tips(){
-        return "for_tips";
+        return "fortips";
+    }
+    @GetMapping("/orgpartner")
+    public String partner(){
+        return "orgpartner";
+    }
+    @GetMapping("/orgdataindsamling")
+    public String data(){
+        return "orgdataindsamling";
+    }
+    @GetMapping("/orgresourcestyring")
+    public String resource(){
+        return "orgresourcestyring";
+    }
+    @GetMapping("/orgrapport")
+    public String rapport(){
+        return "orgrapport";
     }
 }

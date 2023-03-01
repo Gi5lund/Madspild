@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:font-weight="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="UTF-8">
+  <title>Forbruger</title>
+  <link rel="stylesheet" href="../static/css/forbruger.css" th:href="@{/css/forbruger.css}">
+  <link rel="icon" type="image/x-icon" href="../static/pictures/Logo_black.png">
+</head>
+<body>
+
+<div>
+  <div class="topdeco">
+    <div class="header">
+
+      <a href="https://erdetfredag.dk"><img id="Logo" th:src="@{/pictures/Logo.png}" alt="FoodMind" src="../static/pictures/Logo.png"> </a>
+    </div>
+    <div class="topnav">
+      <ul>
+        <li><a th:href="@{/index}" href="index.html">Home</a> </li>
+        <li><a class="active" th:href="@{/forbruger}" href="forbruger.html">Forbruger</a></li>
+        <li><a th:href="@{/virksomhed}"href="virksomhed.html" > Virksomhed</a></li>
+        <li><a  th:href="@{/organisation}" href="organisation.html">Organisation</a></li>
+        <li><a th:href="@{/contact}" href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="navside">
+    <ul>
+      <li><a th:href="@{/foropbevaring}" href="foropbevaring.html">Opbevaringsvejledning</a></li>
+      <li><a th:href="@{/foropskrifter}" href="foropskrifter.html">Opskrifter</a></li>
+      <li><a th:href="@{/formadplan}" href="formadplan.html">Madplanlægning</a></li>
+      <li><a th:href="@{/fortips}" href="fortips.html">Tips og tricks</a></li>
+      <li><a th:href="@{/forfallesskab}" href="forfallesskab.html">Fællesskaber</a></li>
+    </ul>
+  </div>
+</div>
+
+<div class="brødtekst">
+  <h1>Opbevaringsvejledning</h1>
+  <p>
+  <h2>Korrekt emballage har betydning for din mad</h2>
+  Mad og madrester skal du pakke ind i den rigtige emballage, for ikke al indpakning og opbevaring egner sig til mad.<br>
+  Forkert emballage kan nemlig afgive uønsket kemi til din mad.<br>
+  Men vælger du derimod den rigtige emballage, kan det betyde, at din mad kan holde sig længere.<br><br>
+  Mærkning viser, om emballagen må bruges til mad.<br>
+  Plastikbøtter, fade, skåle, glas og andet skal have glas- og gaffelsymbolet, for at du kan bruge det til at opbevare mad i.<br>
+  Glas- og gaffelsymbolet kan du ikke nødvendigvis se, hvis det er oplagt, at genstanden kan bruges til mad. Tallerkner og drikkeglas har for eksempel ikke glas-og gaffelsymbolet, da det er genstande, der normalt bliver brugt til mad.<br><br>
+  Brugsanvisningen kan fortælle dig, om en beholder må bruges til opbevaring af mad. Den kan også fortælle, om emballagen kun må bruges til bestemte typer mad, eller om den må komme i mikrobølgeovnen.<br>
+  </p>
+
+  <div><img src="../static/pictures/forbruger/opbevaring.png" width="1000"></div>
+</div>
+
+</body>
+
+</html>
