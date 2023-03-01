@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
   <meta charset="UTF-8">
-  <title>Organisation</title>
+  <title>Kontakt</title>
   <link rel="stylesheet" href="../static/css/organisation.css" th:href="@{css/organisation.css}">
   <link rel="icon" type="image/x-icon" href="../static/pictures/Logo_black.png">
 </head>
@@ -17,21 +17,21 @@
     <div class="topnav">
       <ul>
         <!--    <li><a><img src="../static/pictures/Logo.png"  height="30px" width="30px" ></a></li>-->
-        <li><a class="active" th:href="@{/index}" href="index.html">Home</a> </li>
+        <li><a th:href="@{/index}" href="index.html">Home</a> </li>
         <li><a th:href="@{/forbruger}" href="forbruger.html">Forbruger</a></li>
         <li><a th:href="@{/virksomhed}"href="virksomhed.html" > Virksomhed</a></li>
-        <li><a  th:href="@{organisation}" href="organisation.html">Organisation</a></li>
-        <li id="contact"><a th:href="@{/contact}" href="contact.html">Kontakt os </a></li>
+        <li><a th:href="@{organisation}" href="organisation.html">Organisation</a></li>
+        <li id="contact"><a class="active" th:href="@{/contact}" href="contact.html">Kontakt os </a></li>
       </ul>
     </div>
   </div>
   <div class="navside">
     <ul>
-      <li><a th:href="@{foropbevaring.html}" href="foropbevaring.html">Opbevaringsvejledning</a></li>
-      <li><a th:href="@{foropskrifter.html}" href="foropskrifter.html">Opskrifter</a></li>
-      <li><a th:href="@{formadplan.html}" href="formadplan.html">Madplanlægning</a></li>
-      <li><a th:href="@{fortips.html}" href="fortips.html">Tips og tricks</a></li>
-      <li><a th:href="@{forfallesskab.html}" href="forfallesskab.html">Fællesskaber</a></li>
+      <li><a th:href="@{orgdataindsamling}" href="orgdataindsamling.html">Dataindsamling</a></li>
+      <li><a th:href="@{orgresourcestyring}" href="orgresourcestyring.html">Resourcestyring</a></li>
+      <li><a th:href="@{orgrapporter}" href="orgrapporter.html">Rapporter</a></li>
+      <li><a th:href="@{orgpartner}" href="orgpartner.html">Bliv partner</a></li>
+
     </ul>
   </div>
 </div>

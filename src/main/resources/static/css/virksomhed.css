@@ -135,6 +135,22 @@ header li a:hover:not(.active) {
     font-family: Candara;
 }
 
+.afsnit_d {
+    list-style-type: none;
+    margin-left: 300px;
+    margin-right: 250px;
+    margin-top: 30px;
+    font-family: Candara;
+}
+
+.afsnit_e {
+    list-style-type: none;
+    margin-left: 300px;
+    margin-right: 250px;
+    margin-top: 30px;
+    font-family: Candara;
+}
+
 .registrering {
     margin-left: 300px;
     margin-right: 250px;
