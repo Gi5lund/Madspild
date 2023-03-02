@@ -1,5 +1,3 @@
-
-
 .rot{
     transition: transform 2s ease-out;
     box-shadow: 0 0 0px 0 black;
@@ -26,4 +24,22 @@
     font-size: 16px;
     font-weight: bold;
     color: #000000;
+}
+
+.dmmtop{
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    margin-left: 220px;
+    padding-bottom: 50px;
+    font-family: Broadway;
+    resize: none;
+    color: #000000;
+
+}
+#DKmodspild {
+    float: right;
+    /*width: 100px;*/
+    height: 75px;
+    justify-content: right;
 }
