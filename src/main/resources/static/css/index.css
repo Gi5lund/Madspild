@@ -123,26 +123,60 @@ li a:hover {
 
 
 .brødtekst{
-    display: flex;
+
+    display: block;
+    /*justify-content: space-evenly;*/
+    margin-left: 300px;
+    margin-right: 250px;
     margin-top: 180px;
-    margin-left: 250px;
-    ;
+    font-family: Candara;
 }
 
 .column img{
     padding: 10px;
 }
-/* Create three equal columns that floats next to each other */
-.column {
-    justify-content: space-around;
+/*
+row {
+    display: flex;
+    !*justify-content: space-evenly;*!
 
+}
+*/
+.column {
+    flex: 50%;
+    width: 50%;
+    padding: 10px;
+}
+/*.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+   !* height: 300px; !* Should be removed. Only for demonstration *!*!
+}*/
+
+/* Clear floats after the columns */
+.row {
+    content: "";
+    display: inline-flex;
+    clear: both;
+}
+/* Create three equal columns that floats next to each other */
+/*.column {
+    float: left;
+    width: 50%;
     padding: 10px;
 
 }
 
-/* Clear floats after the columns */
+!* Clear floats after the columns *!
 .row:after {
     content: "";
     display: table;
     clear: both;
+}*/
+.spanning{
+    display: block;
+   text-align: center;
+    /*justify-content: center;*/
+    width: 100%;
 }
