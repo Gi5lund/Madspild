@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Organisation</title>
+    <link rel="stylesheet" href="../static/css/combined.css" th:href="@{css/combined.css}">
     <link rel="stylesheet" href="../static/css/organisation.css" th:href="@{css/organisation.css}">
     <link rel="icon" type="image/x-icon" href="../static/pictures/Logo_black.png">
 </head>
@@ -12,7 +13,8 @@
     <div class="topdeco">
         <div class="header">
 
-            <a href="https://erdetfredag.dk"><img id="Logo" th:src="@{/pictures/Logo.png}" alt="FoodMind" src="../static/pictures/Logo.png"> </a>
+            <a href="https://erdetfredag.dk"><img id="Logo" th:src="@{/pictures/madspildgrønt.png}" alt="FoodMind" src="../static/pictures/madspildgrønt.png"> </a>
+            <p class="dmmtop">Danmark mod Madspild</p>
         </div>
         <div class="topnav">
             <ul>
@@ -27,9 +29,9 @@
     </div>
     <div class="navside">
         <ul>
-            <li><a th:href="@{/orgdataindsamling}" href="orgdataindsamling.html">Dataindsamling</a></li>
-            <li><a th:href="@{/orgresourcestyring}" href="orgresourcestyring.html">Resourcestyring</a></li>
-            <li><a th:href="@{/orgrapporter}" href="orgrapporter.html">Rapporter</a></li>
+<!--            <li><a th:href="@{/orgdataindsamling}" href="orgdataindsamling.html">Dataindsamling</a></li>-->
+<!--            <li><a th:href="@{/orgresourcestyring}" href="orgresourcestyring.html">Resourcestyring</a></li>-->
+            <li><a th:href="@{/orgrapporter}" href="orgrapporter.html">Rapporter mm.</a></li>
             <li><a th:href="@{/orgpartner}" href="orgpartner.html">Bliv partner</a></li>
 
         </ul>
@@ -39,36 +41,40 @@
 <div class="brødtekst">
      </p>
     <h3>Rapporter, analyser og undersøgelser om madspild </h3>
+    <br><br>
     <p><b>Masser af god viden om madspild</b></p>
     <p>Dybdegående rapporter, analyser og undersøgelser om madspild udviklet af forbrugerbevægelsen Stop Spild Af Mad<br> i samarbejde med vores samarbejdspartnere.
         <br>Brug gerne denne gode viden, men <strong>husk</strong> kildehenvisninger.</p>
     <br>
     <strong>Analyse om&nbsp;udvikling i danskernes fokus på madspild&nbsp;- af Danmarks Statistik for Stop Spild Af Mad -
-        læs&nbsp;<a class="" href="http://www.stopspildafmad.dk/danmarksstatistik2017.pdf">her</a>.</strong>
+       <br> læs&nbsp;<a class="" href="http://www.stopspildafmad.dk/danmarksstatistik2017.pdf">her</a>.</strong>
     <br><br><br>
     <strong>Markedsanalyse om danskernes madspild af forskellige fødevarer - af Landbrug &amp; Fødevarer og Stop Spild Af Mad -
-        læs <a href="http://www.stopspildafmad.dk/madspildsanalyse.pdf"><font color="#ac142a">her</font></a>.</strong>
+        <br> læs <a href="http://www.stopspildafmad.dk/madspildsanalyse.pdf"><font color="#ac142a">her</font></a>.</strong>
     <br><br><br>
-    <strong>Markedsanalyse om udviklingen i madspild - af TNS Gallup for Landbrug &amp; Fødevarer og Stop Spild Af Mad - læs </strong>
+    <strong>Markedsanalyse om udviklingen i madspild - af TNS Gallup for Landbrug &amp; Fødevarer og Stop Spild Af Mad -
+        <br> læs </strong>
     <a href="http://www.stopspildafmad.dk/madspildsanalyse.pdf"><font color="#ac142a">her</font></a>
     <br><br><br>
-    <strong>Undersøgelse af danskernes madspildsadfærd - af Stop Spild Af Mad m.fl. - læs
-        <font color="#ac142a"><a href="http://www.stopspildafmad.dk/madspildsrapport.pdf"><font color="#ac142a">her</font></a></font>.</strong>
+    <strong>Undersøgelse af danskernes madspildsadfærd - af Stop Spild Af Mad m.fl. -
+        <br> læs <font color="#ac142a"><a href="http://www.stopspildafmad.dk/madspildsrapport.pdf"><font color="#ac142a">her</font></a></font>.</strong>
     <br><br><br>
-    <strong>Undersøgelse om madspild og affald - af Analyse Danmark for Stop Spild Af Mad og AVV Hjørring - læs </strong>
+    <strong>Undersøgelse om madspild og affald - af Analyse Danmark for Stop Spild Af Mad og AVV Hjørring -
+        <br> læs </strong>
     <a href="http://www.analysedanmark.dk/Undersogelse-om-madspild-og-affald"><font color="#ac142a"><strong>her</strong></font></a>
     <br><br><br>
-    <strong>Analyse om danskernes holdning til holdbarhed, madspild og opbevaring - af Stop Spild Af Mad m.fl. - læs
-        <a class="" href="http://www.stopspildafmad.dk/analyseommadspild2017.pdf">her</a>.</strong>
+    <strong>Analyse om danskernes holdning til holdbarhed, madspild og opbevaring - af Stop Spild Af Mad m.fl. -
+        <br> læs <a class="" href="http://www.stopspildafmad.dk/analyseommadspild2017.pdf">her</a>.</strong>
     <br><br><br>
-     <strong>Undersøgelse om danskernes forhold til julens madspild - af KANTAR Gallup for Stop Spild Af Mad - læs&nbsp;
+     <strong>Undersøgelse om danskernes forhold til julens madspild - af KANTAR Gallup for Stop Spild Af Mad -
+         <br> læs&nbsp;
          <a class="" href="http://www.stopspildafmad.dk/kantargallupforstopspildafmad2017.zip">her</a> </strong>
     <br><br><br>
     <strong>Rapport om madspild, madfattigdom og julehjælp - af Epinion for Dansk Folkehjælp og Stop Spild Af Mad -
-        læs <a class="" href="http://www.stopspildafmad.dk/madspildogmadfattigdomrapport2016.pdf">her</a>
+        <br> læs <a class="" href="http://www.stopspildafmad.dk/madspildogmadfattigdomrapport2016.pdf">her</a></strong>
     <br><br><br>
         <strong>Undersøgelse om forskellige tiltag i dagligvarebutikkers indflydelse på madspild - af&nbsp;Stop Spild Af Mad m.fl. -
-        læs <a href="http://www.stopspildafmad.dk/forbrugerpanelommadspild.pdf"><font color="#ac142a">her</font></a>.</strong>
+            <br> læs <a href="http://www.stopspildafmad.dk/forbrugerpanelommadspild.pdf"><font color="#ac142a">her</font></a>.</strong>
 </div>
 
 </body>
