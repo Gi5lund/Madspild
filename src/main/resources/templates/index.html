@@ -13,42 +13,97 @@
 <div>
     <div class="topdeco">
         <div class="header">
-            <a href="https://erdetfredag.dk"><img id="Logo" th:src="@{/pictures/Logo.png}" alt="FoodMind" src="../static/pictures/Logo.png"> </a>
+            <a href="https://erdetfredag.dk"><img id="Logo" th:src="@{/pictures/Logo.png}" alt="FoodMind"
+                                                  src="../static/pictures/Logo.png"> </a>
         </div>
 
         <div class="topnav">
             <ul>
-                <li><a class="active" th:href="@{/index}" href="index.html">Home</a> </li>
+                <li><a class="active" th:href="@{/index}" href="index.html">Home</a></li>
                 <li><a th:href="@{/forbruger}" href="forbruger.html">Forbruger</a></li>
-                <li><a th:href="@{/virksomhed}"href="virksomhed.html" > Virksomhed</a></li>
-                <li><a  th:href="@{/organisation}" href="organisation.html">Organisation</a></li>
-                <li id="contact"><a class="#contact us" href="contact us">Contact Us </a></li>
+                <li><a th:href="@{/virksomhed}" href="virksomhed.html"> Virksomhed</a></li>
+                <li><a th:href="@{/organisation}" href="organisation.html">Organisation</a></li>
+                <li id="contact"><a th:href="@{/contact}" href="contact.html">Kontakt os </a></li>
             </ul>
         </div>
     </div>
 </div>
-    <div>
-        <div class="navside">
-            <ul>
+<div>
+    <div class="navside">
+        <ul>
 
-            <li><a th:href="@{/https://www.dst.dk/da/Statistik/nyheder-analyser-publ/nyt/NytHtml?cid=39625}" href="https://www.dst.dk/da/Statistik/nyheder-analyser-publ/nyt/NytHtml?cid=39625">Statistik om madspild</a></li>
-                <!-- <li><a href="#news">initiativer bekæmpelse af madspild og andre fantastiske ting</a></li>-->
+            <li><a th:href="@{/https://www.dst.dk/da/Statistik/nyheder-analyser-publ/nyt/NytHtml?cid=39625}"
+                   href="https://www.dst.dk/da/Statistik/nyheder-analyser-publ/nyt/NytHtml?cid=39625">Statistik om
+                madspild</a></li>
+            <!-- <li><a href="#news">initiativer bekæmpelse af madspild og andre fantastiske ting</a></li>-->
             <!--<li><a href="#contact"></a></li>
             <li><a href="#about">Bliv partner</a></li>
             <li><a href="#about">Fællesskaber</a></li>-->
-            </ul>
-        </div>
+        </ul>
     </div>
+</div>
 
 <div class="brødtekst">
+    <div class="spanning"><h2>Bæredygtighed eller madspild</h2></div>
 
-        <div>
-             <img th:src="@{/pictures/madspildbutikcontainer.jpg}" alt="skraldecontainer med mad" src="../static/pictures/madspildbutikcontainer.jpg" width="100%">
-            <p>Hver dag bliver der smidt næsten 2.000 tons fødevarer ud i Danmark. Men nu går indsatsen mod madspild ind i en ny faseOrganisationen -Danmark mod Madspild–ønsker via en webside at gøre det nemmere at undgå madspild eller informere forbrugere om madspild.</p>
+    <div class="row">
+        <div class="column">
+            <p>
+                Leder i magasinet Medlemsinformation, oktober 2020, Teknologisk Institut </p>
+            <br>
+            <p>
+                Danmark har fået en ny grøn forskningsstrategi, der skal bidrage til den grønne omstilling. Målsætningen
+                er, at Danmark skal være et grønt foregangsland og forskningen er en del af midlet, hvis vi skal nå de
+                ambitiøse 70% reduktion af drivhusgasser inden 2030. Vores brug og håndtering af plast indtager en
+                nøglerolle i opfyldelsen af målet, men man skal tænke sig om og overveje grundigt hvordan det gøres.
+                Løser man et problem, kan man let skabe et andet lige så stort.</p>
+            <img th:src="@{/pictures/husholdningsaffald.jpg}" alt="husholdningsaffald"
+                 src="../static/pictures/husholdningsaffald.jpg" width="100%">
+
+
+                Uddannelses og Forskningsministeriet angiver i den nye, grønne forskningsstrategi, at plastikaffald er
+                den væ-sentligste kilde til Danmarks udledning af CO2 fra forbrænding af affald. Vi kender udmærket
+                problemstillingen. Vi har kendt den i mange år, men har ikke rigtigt fået gjort noget effektivt ved det:
+                Mange plastprodukter er slet ikke designet til at kunne genanvendes eller blive brugt flere gange.
+                Derfor er eneste mulighed forbrænding eller deponering på lossepladsen.<br> Økonomisk er der ingen fordel
+                ved deponering, så løsningen er afbrænding med efterfølgende kraft- og varmeproduktion. Den skæbne
+                overgår også alt det plastaffald som i første omgang er sorteret fra til genanvendelse. Vi ved
+                simpelthen ikke, hvad vi skal bruge det til. Teknologierne til sortering er mangelfulde og den
+                resulterende kvalitet er for dårlig. Alt dette er der intet nyt i – udover, at vi inden 2022 skal
+                genbruge hele 60% af det sorterede plastaffald. Hvordan det skal ske, er en helt anden diskussion.
+
+                </p>
+
         </div>
 
+        <div class="column">
+            <p>Parallelt med dette har Danmark fået en ny mærkedag. Hvert år den 29. september vil være ”Danmarks
+                natio-nale madspildsdag”. Det er samme dag som FN’s første mærkedag med samme formål, ”International Day
+                of Awareness of Food Loss and Waste”. Denne dag skal alle nationalt og internationalt sætte fokus på at
+                mindske spild af mad og rette blikket mod FN’s verdensmål 12.3 om ansvarligt forbrug og produktion, samt
+                at sikre bæredygtigt forbrug og produktionsformer. Her er den globale ambition at nedbringe det globale
+                madspild med 50% inden 2030.
+
+                Dette vigtige mål bør alle kunne blive enige om. Madspild er uacceptabelt frås. Man producerer ikke mad
+                blot for at kassere det, når fødevarer er knappe ressourcer andre steder i verden. Det bør alle kunne
+                blive enige om, når det præsenteres så simpelt. Plastindustriens befolkningsundersøgelse fra 2020 er
+                delvist blevet offentliggjort og viser nogle bemærkelsesværdige holdninger hos forbrugerne. 66-81% af
+                forbrugerne fravælger plastemballage, selvom det betyder kortere holdbarhed for maden og dermed er det
+                rimeligt at antage, at madspildet vil forøges. Det er der måske ikke noget nyt i. Forbrugerne har over
+                en længere periode vendt sig mod plast og ser dette som et stort miljøproblem – nogen i så radikal grad,
+                at man foretrækker emballagefri fødevarer, hvilket objektivt er meget svært at forsvare. På den anden
+                side peger forskere og eksperter igen og igen på, at optimal anvendelse af emballage mindsker madspildet
+                og at dette samlet giver den mindste belastning af miljøet.</p>
+            <p> på billedet ses en madspildscontainer - et tydelig eksempel på manglende bæredygtighed</p>
+            <img th:src="@{/pictures/madspildbutikcontainer.jpg}" alt="skraldecontainer med mad"
+                 src="../static/pictures/madspildbutikcontainer.jpg" width="100%">
+            <p>Hver dag bliver der smidt næsten 2.000 tons fødevarer ud i Danmark. Men nu går indsatsen mod madspild ind
+                i en ny fase Organisationen -Danmark mod Madspild–ønsker via en webside at gøre det nemmere at undgå
+                madspild eller informere forbrugere om madspild.</p>
+        </div>
+    </div>
 
 </div>
 
 </body>
-</html>
+</html>>
