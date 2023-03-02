@@ -17,8 +17,8 @@
         <div class="topnav">
             <ul>
                 <li><a th:href="@{/index}" href="index.html">Home</a> </li>
-                <li><a class="active" th:href="@{/forbruger}" href="forbruger.html">Forbruger</a></li>
-                <li><a th:href="@{/virksomhed}"href="virksomhed.html" >Virksomhed</a></li>
+                <li><a th:href="@{/forbruger}" href="forbruger.html">Forbruger</a></li>
+                <li><a class="active" th:href="@{/virksomhed}"href="virksomhed.html" >Virksomhed</a></li>
                 <li><a  th:href="@{/organisation}" href="organisation.html">Organisation</a></li>
                 <li id="contact"><a th:href="@{/contact}" href="contact.html">Kontakt os </a></li>
             </ul>
@@ -39,7 +39,7 @@
 <div class="afsnit_a">
     <h3>Stop madspild og skab en mere bæredygtig fremtid med FoodMind </h3>
     <p>FoodMind tilbyder nu et nyt træningsmodul, som hjælper virksomheder med at nedbringe madspild. Træningsmodulet er delt op i tre områder: landbrug og fødevareindustri, kantiner, restauranter og storkøkkener samt detailhandlen.</p>
-    <div><img src="../static/pictures/virksomhed/traeningsmodul.jpg" height="300"></div>
+    <div><img th:src="@{/pictures/virksomhed/traeningsmodul.jpg}" alt="Picture off donation" src="../static/pictures/virksomhed/traeningsmodul.jpg" height="300"></div>
 </div>
 
 <div class="afsnit_b">

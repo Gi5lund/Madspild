@@ -17,8 +17,8 @@
         <div class="topnav">
             <ul>
                 <li><a th:href="@{/index}" href="index.html">Home</a> </li>
-                <li><a class="active" th:href="@{/forbruger}" href="forbruger.html">Forbruger</a></li>
-                <li><a th:href="@{/virksomhed}"href="virksomhed.html" >Virksomhed</a></li>
+                <li><a th:href="@{/forbruger}" href="forbruger.html">Forbruger</a></li>
+                <li><a class="active" th:href="@{/virksomhed}"href="virksomhed.html" >Virksomhed</a></li>
                 <li><a  th:href="@{/organisation}" href="organisation.html">Organisation</a></li>
                 <li id="contact"><a th:href="@{/contact}" href="contact.html">Kontakt os </a></li>
             </ul>
@@ -37,7 +37,7 @@
 
 <div class="afsnit_a">
     <h3>eFoodMind – Reducer madspildet og øg bæredygtigheden med avanceret teknologi og software </h3>
-    <div><img src="../static/pictures/virksomhed/eFoodMind.jpg" height="300"></div>
+    <div><img th:src="@{/pictures/virksomhed/eFoodMind.jpg}" alt="Picture off eFoodMind device" src="../static/pictures/virksomhed/eFoodMind.jpg" height="300"></div>
     <p>Madspild er en udfordring, der påvirker både vores planet og vores økonomi. I Danmark smides der hvert år tusindvis af tons mad ud, og dette har konsekvenser for både miljøet og vores pengepung. Derfor er det vigtigt at tage ansvar og gøre en indsats for at mindske madspildet.</p>
     <p>FoodMind er en virksomhed, der er dedikeret til at reducere madspild og øge bæredygtigheden inden for fødevaresektoren ved at anvende avanceret teknologi og software til ressourcestyring. Vi tror på, at bæredygtig ressourcestyring er en løsning på udfordringerne omkring madspild, og vi har udviklet en sensor til automatisk temperaturmåling og styring af varelagre, køleskabe og frysere.</p>
     <p>Vores sensor, eFoodMind, er en specielt udviklet sensor, der er trådløs og kører på eget netværk. Sensoren måler automatisk temperaturen i dine køle- og fryseenheder og sender målingerne direkte ind i dit eSmiley egenkontrolprogram. Dette betyder, at du sparer den manuelle kontrol, og du altid er sikker på, at dit varelager opbevares ved den rigtige temperatur.</p>

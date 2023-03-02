@@ -7,6 +7,14 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class Home {
 
     @GetMapping("/index")
+    public String index(){
+        return "index";
+    }
+    @GetMapping("/")
+    public String homeEmpty(){
+        return "index";
+    }
+    @GetMapping("/home")
     public String home(){
         return "index";
     }
@@ -63,6 +71,28 @@ public class Home {
     @GetMapping("/mailformular")
     public String mail() {
         return "mailformular";
+    }
+
+    @GetMapping("/virkressourcestyring")
+    public String ressourcestyring() {
+        return "virkressourcestyring";
+    }
+
+    @GetMapping("/virkdoneringsliste")
+    public String doneringsliste() {
+        return "virkdoneringsliste";
+    }
+    @GetMapping("/virktraeningsmodul")
+    public String traeningsmodul() {
+        return "virktraeningsmodul";
+    }
+    @GetMapping("/virkraadgivning")
+    public String raadgivning() {
+        return "virkraadgivning";
+    }
+    @GetMapping("/virkpartner")
+    public String virkpartner() {
+        return "virkpartner";
     }
 
 }

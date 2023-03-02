@@ -17,8 +17,8 @@
         <div class="topnav">
             <ul>
                 <li><a th:href="@{/index}" href="index.html">Home</a> </li>
-                <li><a class="active" th:href="@{/forbruger}" href="forbruger.html">Forbruger</a></li>
-                <li><a th:href="@{/virksomhed}"href="virksomhed.html" >Virksomhed</a></li>
+                <li><a th:href="@{/forbruger}" href="forbruger.html">Forbruger</a></li>
+                <li><a class="active" th:href="@{/virksomhed}"href="virksomhed.html" >Virksomhed</a></li>
                 <li><a  th:href="@{/organisation}" href="organisation.html">Organisation</a></li>
                 <li id="contact"><a th:href="@{/contact}" href="contact.html">Kontakt os </a></li>
             </ul>
@@ -38,13 +38,13 @@
 <div class="afsnit_a">
     <h3>Bliv partner med FoodMind og kæmp mod madspild </h3>
     <p>I dagens samfund er madspild et stort problem, og det påvirker både vores miljø og vores økonomi. Derfor har FoodMind besluttet sig for at tage en aktiv rolle i at bekæmpe madspild. FoodMind er en førende virksomhed indenfor ressourcestyring og arbejder aktivt for at nedbringe madspild i hele fødevarekæden.</p>
-    <div><img src="../static/pictures/virksomhed/verdensmaal1.png" height="300"></div>
+    <div><img th:src="@{/pictures/virksomhed/verdensmaal1.png}" alt="Picture off donation" src="../static/pictures/virksomhed/verdensmaal1.png" height="300"></div>
 </div>
 
 <div class="afsnit_b">
     <h3>FN's verdensmål og FoodMind  </h3>
     <p>FN's verdensmål er at udrydde sult og opnå fødevaresikkerhed og bæredygtig udvikling. Det er netop det, som FoodMind også stræber efter. Vi mener, at det er vores ansvar som førende virksomhed indenfor ressourcestyring, at være en aktiv del af dette mål og arbejde for at nedbringe madspild i hele fødevarekæden.</p>
-    <div><img src="../static/pictures/virksomhed/verdensmaal2.png" height="300"></div>
+    <div><img th:src="@{/pictures/virksomhed/verdensmaal2.png}" alt="Picture off donation" src="../static/pictures/virksomhed/verdensmaal2.png" height="300"></div>
     <p>Partnerskaber mellem virksomheder kan understøtte flere af FN's verdensmål, herunder:</p>
     <p>Verdensmål nr. 2: "Ingen sult" - Partnerskaber mellem virksomheder kan bidrage til at reducere sult og skabe mere bæredygtige fødevaresystemer ved at mindske madspild og øge fødevareeffektiviteten.</p>
     <p>Verdensmål nr. 12: "Ansvarligt forbrug og produktion" - Partnerskaber mellem virksomheder kan hjælpe med at reducere ressourceforbruget og affaldet i produktionen, samtidig med at det kan skabe mere ansvarlige forbrugsvaner hos forbrugerne.</p>

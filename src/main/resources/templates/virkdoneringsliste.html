@@ -17,8 +17,8 @@
         <div class="topnav">
             <ul>
                 <li><a th:href="@{/index}" href="index.html">Home</a> </li>
-                <li><a class="active" th:href="@{/forbruger}" href="forbruger.html">Forbruger</a></li>
-                <li><a th:href="@{/virksomhed}"href="virksomhed.html" >Virksomhed</a></li>
+                <li><a th:href="@{/forbruger}" href="forbruger.html">Forbruger</a></li>
+                <li><a class="active" th:href="@{/virksomhed}"href="virksomhed.html" >Virksomhed</a></li>
                 <li><a  th:href="@{/organisation}" href="organisation.html">Organisation</a></li>
                 <li id="contact"><a th:href="@{/contact}" href="contact.html">Kontakt os </a></li>
             </ul>
@@ -37,7 +37,7 @@
 
 <div class="afsnit_a">
     <h3>Madspild og donation af mad </h3>
-    <div><img src="../static/pictures/virksomhed/donation431x215px.jpg" height="300"></div>
+    <div><img th:src="@{/pictures/virksomhed/donation431x215px.jpg}" alt="Picture off donation" src="../static/pictures/virksomhed/donation431x215px.jpg" height="300"></div>
     <p>Madspild er et alvorligt problem, som påvirker både vores klima og miljø, og som resulterer i spild af betydelige mængder mad og penge hver dag. Det er et problem, der strækker sig gennem hele fødevarekæden, og som kan løses ved at optimere processerne og tage ansvar for overskudsmad.</p>
     <p>Hos FoodMind tilbyder vi hjælp til at nedbringe madspild i kantiner, restauranter, cateringsvirksomheder og storkøkkener. Vi gennemfører en omfattende madspildsanalyse, hvor vi gennemgår jeres processer, måler madspildet og kommer med konkrete anvisninger på, hvordan I kan minimere spild af mad. Vi inddrager også medarbejderne i dialog og praktiske øvelser, så I får handlingsorienterede værktøjer, der kan nedbringe jeres madspild.</p>
 </div>
