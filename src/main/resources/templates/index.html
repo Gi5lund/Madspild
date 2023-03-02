@@ -7,20 +7,21 @@
     <link rel="stylesheet" th:href="@{css/combined.css}" href="../static/css/combined.css">
     <link rel="stylesheet" th:href="@{css/index.css}" href="../static/css/index.css">
 
-    <link rel="icon" type="image/x-icon" href="../static/pictures/Logo_black.png">
+    <link rel="icon" type="image/x-icon" th:href="@{/pictures/Logo_black.png}" href="../static/pictures/Logo_black.png">
 </head>
 <body>
 
 <div>
     <div class="topdeco">
         <div class="header">
-            <a href="https://erdetfredag.dk"><img id="Logo" th:src="@{/pictures/Logo.png}" alt="FoodMind"
-                                                  src="../static/pictures/Logo.png"> </a>
+
+            <a href="https://erdetfredag.dk"><img id="Logo" th:src="@{/pictures/madspildgrønt.png}" alt="FoodMind" src="../static/pictures/madspildgrønt.png"> </a>
+            <p class="dmmtop">Danmark mod Madspild!!</p>
         </div>
 
         <div class="topnav">
             <ul>
-                <li><a class="active" th:href="@{/index}" href="index.html">Home</a></li>
+                <li><a class="active" th:href="@{/index}" href="index.html">Hjem</a></li>
                 <li><a th:href="@{/forbruger}" href="forbruger.html">Forbruger</a></li>
                 <li><a th:href="@{/virksomhed}" href="virksomhed.html"> Virksomhed</a></li>
                 <li><a th:href="@{/organisation}" href="organisation.html">Organisation</a></li>
