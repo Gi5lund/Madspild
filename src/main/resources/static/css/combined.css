@@ -43,7 +43,7 @@ li {
 }
 
 li a {
-    font-family: Baskerville;
+    font-family: Candera, Baskerville;
     font-weight: bold;
     display: block;
     color: white;
@@ -104,7 +104,7 @@ li a:hover {
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
-    font-family: Baskerville;
+    font-family: Candera, Baskerville;
     font-weight: bold;
     font-size: 14px;
     overflow-wrap: normal;
@@ -131,7 +131,7 @@ li a:hover {
     margin-left: 300px;
     margin-right: 250px;
     margin-top: 180px;
-    font-family: Baskerville;
+    font-family: Candera, Baskerville;
 }
 .dmmtop {
     display: flex;
@@ -139,7 +139,7 @@ li a:hover {
     font-size: 50px;
     margin-left: 220px;
     padding-bottom: 50px;
-    font-family: Baskerville;
+    font-family: Candera, Baskerville;
     resize: none;
     color: #000000;
 }
