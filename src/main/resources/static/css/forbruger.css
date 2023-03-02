@@ -78,7 +78,7 @@ li a:hover {
     object-position: left;
     font-size: xx-large;
     color:#593C19;
-    background-color: #b42637;
+    background-color: greenyellow;
     /* #0a736b turkisgrøn*/
 }
 
@@ -147,4 +147,8 @@ li a:hover {
 }
 .linkopskrift ul {
     list-style-type: none;
+}
+
+.dkmodlogo{
+    margin-left: 1120px;
 }
