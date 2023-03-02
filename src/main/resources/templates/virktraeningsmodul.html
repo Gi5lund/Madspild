@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en" xmlns:th="http://www.thymeleaf.org/">
 <head>
     <meta charset="UTF-8">
     <title>Træningsmodul</title>
-    <link rel="stylesheet" href="../static/css/virksomhed.css" th:href="@{/virksomhed.css}">
+    <link rel="stylesheet" href="../static/css/virksomhed.css" th:href="@{css/virksomhed.css}">
     <link rel="icon" type="image/x-icon" href="../static/pictures/Logo_black.png">
 </head>
 <body>
@@ -26,14 +26,15 @@
         </div>
     </div>
     <div>
-        <header>
-            <li><a th:href="@{virk_ressourcestyring.html}" href="virk_ressourcestyring.html">Ressourcestyring</a></li>
-            <li><a th:href="@{virk_doneringsliste.html}" href="virk_doneringsliste.html">Doneringsliste</a></li>
-            <li><a th:href="@{virk_traeningsmodul.html}" href="virk_traeningsmodul.html">Træningsmodul</a></li>
-            <li><a th:href="@{virk_raadgivning.html}" href="virk_raadgivning.html">Rådgivning</a></li>
-            <li><a th:href="@{virk_partner.html}" href="virk_partner.html">Bliv partner</a></li>
-        </header>
-    </div>
+        <div class="navside">
+            <ul>
+                <li><a th:href="@{/virkressourcestyring}" href="virkressourcestyring.html">Ressourcestyring</a></li>
+                <li><a th:href="@{/virkdoneringsliste}" href="virkdoneringsliste.html">Doneringsliste</a></li>
+                <li><a th:href="@{/virktraeningsmodul}" href="virktraeningsmodul.html">Træningsmodul</a></li>
+                <li><a th:href="@{/virkraadgivning}" href="virkraadgivning.html">Rådgivning</a></li>
+                <li><a th:href="@{/virkpartner}" href="virkpartner.html">Bliv partner</a></li>
+            </ul>
+        </div>
 </div>
 
 <div class="afsnit_a">
