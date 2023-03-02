@@ -17,8 +17,8 @@
         <div class="topnav">
             <ul>
                 <li><a th:href="@{/index}" href="index.html">Home</a> </li>
-                <li><a class="active" th:href="@{/forbruger}" href="forbruger.html">Forbruger</a></li>
-                <li><a th:href="@{/virksomhed}"href="virksomhed.html" >Virksomhed</a></li>
+                <li><a th:href="@{/forbruger}" href="forbruger.html">Forbruger</a></li>
+                <li><a class="active" th:href="@{/virksomhed}"href="virksomhed.html" >Virksomhed</a></li>
                 <li><a  th:href="@{/organisation}" href="organisation.html">Organisation</a></li>
                 <li id="contact"><a th:href="@{/contact}" href="contact.html">Kontakt os </a></li>
             </ul>
@@ -38,7 +38,7 @@
 <div class="afsnit_a">
     <h3>Introduktion til FoodMinds rådgivningstilbud </h3>
     <p>FoodMind tilbyder personlig rådgivning og sparring inden for madspild, så virksomheder kan undgå at smide mad ud og samtidig spare penge. FoodMind hjælper med at identificere områder, hvor madspildet kan reduceres, og hvordan overskudsvarer kan doneres på en sikker og ansvarlig måde.</p>
-    <div><img src="../static/pictures/virksomhed/raadgivning.jpg" height="300"></div>
+    <div><img th:src="@{/pictures/virksomhed/raadgivning.jpg}" alt="Picture off donation" src="../static/pictures/virksomhed/raadgivning.jpg" height="300"></div>
 </div>
 
 <div class="afsnit_b">

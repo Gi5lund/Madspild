@@ -73,4 +73,26 @@ public class Home {
         return "mailformular";
     }
 
+    @GetMapping("/virkressourcestyring")
+    public String ressourcestyring() {
+        return "virkressourcestyring";
+    }
+
+    @GetMapping("/virkdoneringsliste")
+    public String doneringsliste() {
+        return "virkdoneringsliste";
+    }
+    @GetMapping("/virktraeningsmodul")
+    public String traeningsmodul() {
+        return "virktraeningsmodul";
+    }
+    @GetMapping("/virkraadgivning")
+    public String raadgivning() {
+        return "virkraadgivning";
+    }
+    @GetMapping("/virkpartner")
+    public String virkpartner() {
+        return "virkpartner";
+    }
+
 }
