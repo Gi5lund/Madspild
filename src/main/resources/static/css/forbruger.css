@@ -133,22 +133,22 @@ li a:hover {
     font-family: Candara;
 }
 
-.linkopskrift li a{
-    display: block;
-    margin-left: 830px;
-    text-decoration: none;
-    color: #000000;
-    font-family: Candara;
-    font-weight: bold;
-    font-size: 18px;'
-}
-.linkopskrift li a hover{
-    color: #ff0000;
-}
-.linkopskrift ul {
-    list-style-type: none;
+.rot{
+    transition: transform 2s ease-out;
+    box-shadow: 0 0 0px 0 black;
+    width: 200px;
+    text-align: center;
 }
 
-.dkmodlogo{
-    margin-left: 1120px;
+.rot:hover{
+    transform: rotateY(360deg);
+    /*content: url("../static/dkflip.png")*/;
+}
+
+.linkopskrift{
+    text-decoration: none;
+    font-family: "Ink Free";
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
 }
